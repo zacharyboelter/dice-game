@@ -13,3 +13,7 @@ const player1Dice = document.querySelector('#player1Dice')
 const player2Dice = document.querySelector('#player2Dice')
 const rollBtn = document.querySelector('#rollBtn')
 const resetBtn = document.querySelector('#resetBtn')
+
+rollBtn.addEventListener('click', function(){
+    console.log('roll the fuckin dice CRAPPPPSSSSSSSS')
+})
