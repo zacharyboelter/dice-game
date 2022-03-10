@@ -48,7 +48,7 @@ function gameWon(){
     rollBtn.style.display = 'none'
 }
 
-resetBtn.addEventListener('click', function(){
+function resetGame(){
     player1Score = 0
     player2Score = 0
     player1Turn = true
@@ -61,4 +61,5 @@ resetBtn.addEventListener('click', function(){
     rollBtn.style.display = "block"
     player2Dice.classList.remove('active')
     player1Dice.classList.add('active')
-})
+}
+resetBtn.addEventListener('click', resetGame)
